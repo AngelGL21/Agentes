@@ -14,10 +14,10 @@ from langchain_core.prompts import (
 )
 
 # Establecer la conexión a la base de datos MySQL "herber4"
-db = SQLDatabase.from_uri("mysql+pymysql://root:angel123@localhost:3306/libreria")
+db = SQLDatabase.from_uri("mysql+pymysql://root:contraseña@localhost:3306/libreria")
 
 # Clave de API de OpenAI
-openai_api_key = "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"
+openai_api_key = "AQUI VA LA CLAVE DE OPENIA"
 
 # Crear un modelo de lenguaje natural de ChatOpenAI con la clave de API proporcionada
 llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0, openai_api_key=openai_api_key)
